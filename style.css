@@ -16,7 +16,6 @@ body{
 }
 .container{
   width: 60vw;
-  height: 600px;
   display: flex;
   align-items:flex-start;
   justify-content: space-evenly;
@@ -25,7 +24,7 @@ body{
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     width: 400px;
-    height: 600px;
+    height: auto;
     border-radius: 20px;
     flex-direction: column;
     border: 1px solid black;
@@ -92,6 +91,9 @@ body{
     text-transform: uppercase;
     font-weight: bold;
 }
+.card-bottom .descricao{
+   
+}
 .button{
     width: 200px;
     height: 400px;
@@ -123,7 +125,7 @@ body{
     .button{
         width: 100vw;
         margin: 10px;
-        
+
     }
     .button button{
         margin: 5px;

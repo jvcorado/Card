@@ -28,3 +28,9 @@ function resetFlash(){
     document.querySelector('.card-top').classList.remove('card-top-batman')
     document.querySelector('.card-top').classList.remove('card-top-homemDeFerro')
 }
+function limpaInner(){
+    document.querySelector('.card-bottom .forca span').innerHTML=""
+    document.querySelector('.card-bottom .velocidade span').innerHTML=""
+    document.querySelector('.card-bottom .poder span').innerHTML=""
+    document.querySelector('.card-bottom .descricao span').innerHTML=""
+}

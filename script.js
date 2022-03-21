@@ -1,3 +1,5 @@
+
+
 const c = (el)=>document.querySelector(el);
 
 
@@ -13,18 +15,34 @@ function voltar(){
     document.querySelector('.card-top').classList.remove('card-top-homemAranha')
     document.querySelector('.card-top').classList.remove('card-top-homemDeFerro')
     document.querySelector('.card-top').classList.remove('card-top-flash')
+
+    document.querySelector('.card-bottom .forca span').innerHTML=""
+    document.querySelector('.card-bottom .velocidade span').innerHTML=""
+    document.querySelector('.card-bottom .poder span').innerHTML=""
+    document.querySelector('.card-bottom .descricao span').innerHTML=""
+
+
 }
 
 function batman(){
     document.querySelector('.card-top').classList.add('card-top-batman');
+    document.querySelector('.card-top').style.background = 'black'
+    document.querySelector('.card-bottom').style.background = 'white'
 
     document.querySelector('.card-top .namePersona').innerHTML="Batman"
     document.querySelector('.card-top .imagem').src="/Card/img/batman (1).png"
     document.querySelector('.card-top-batman .namePersona').style.color = 'white'
-    document.querySelector('.card-top').style.background = 'black'
-    document.querySelector('.card-bottom').style.background = 'white'
 
-    
+    document.querySelector('.card-bottom .forca span').innerHTML=""
+    document.querySelector('.card-bottom .velocidade span').innerHTML=""
+    document.querySelector('.card-bottom .poder span').innerHTML=""
+    document.querySelector('.card-bottom .descricao span').innerHTML=""
+
+    document.querySelector('.card-bottom .forca span').innerHTML="500"
+    document.querySelector('.card-bottom .velocidade span').innerHTML="500"
+    document.querySelector('.card-bottom .poder span').innerHTML="500"
+    document.querySelector('.card-bottom .descricao span').innerHTML="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci sed aspernatur tempore laboriosam placeat enim, sunt est soluta optio, quo, officia voluptates vitae dolorem aliquid nostrum porro repellat esse in!"
+
     document.querySelector('.card-top').classList.remove('card-top-homemAranha')
     document.querySelector('.card-top').classList.remove('card-top-homemDeFerro')
     document.querySelector('.card-top').classList.remove('card-top-flash')
@@ -40,6 +58,18 @@ function homemAranha(){
     document.querySelector('.card-top').classList.remove('card-top-homemDeFerro')
     document.querySelector('.card-top').classList.remove('card-top-batman')
     document.querySelector('.card-top').classList.remove('card-top-flash')
+
+    document.querySelector('.card-bottom .forca span').innerHTML=""
+    document.querySelector('.card-bottom .velocidade span').innerHTML=""
+    document.querySelector('.card-bottom .poder span').innerHTML=""
+    document.querySelector('.card-bottom .descricao span').innerHTML=""
+
+    document.querySelector('.card-bottom .forca span').innerHTML="400"
+    document.querySelector('.card-bottom .velocidade span').innerHTML="400"
+    document.querySelector('.card-bottom .poder span').innerHTML="400"
+    document.querySelector('.card-bottom .descricao span').innerHTML="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci sed aspernatur tempore laboriosam placeat enim, sunt est soluta optio, quo, officia voluptates vitae dolorem aliquid nostrum porro repellat esse in!"
+  
+
 }
 function homemDeFerro(){
     document.querySelector('.card-top').classList.add('card-top-homemDeFerro');
@@ -52,6 +82,17 @@ function homemDeFerro(){
     document.querySelector('.card-top').classList.remove('card-top-homemAranha')
     document.querySelector('.card-top').classList.remove('card-top-batman')
     document.querySelector('.card-top').classList.remove('card-top-flash')
+
+    document.querySelector('.card-bottom .forca span').innerHTML=""
+    document.querySelector('.card-bottom .velocidade span').innerHTML=""
+    document.querySelector('.card-bottom .poder span').innerHTML=""
+    document.querySelector('.card-bottom .descricao span').innerHTML=""
+
+    document.querySelector('.card-bottom .forca span').innerHTML="600"
+    document.querySelector('.card-bottom .velocidade span').innerHTML="600"
+    document.querySelector('.card-bottom .poder span').innerHTML="600"
+    document.querySelector('.card-bottom .descricao span').innerHTML="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci sed aspernatur tempore laboriosam placeat enim, sunt est soluta optio, quo, officia voluptates vitae dolorem aliquid nostrum porro repellat esse in!"
+
 }
 function flash(){
     document.querySelector('.card-top').classList.add('card-top-flash');
@@ -64,4 +105,16 @@ function flash(){
     document.querySelector('.card-top').classList.remove('card-top-homemAranha')
     document.querySelector('.card-top').classList.remove('card-top-batman')
     document.querySelector('.card-top').classList.remove('card-top-homemDeFerro')
+
+    document.querySelector('.card-bottom .forca span').innerHTML=""
+    document.querySelector('.card-bottom .velocidade span').innerHTML=""
+    document.querySelector('.card-bottom .poder span').innerHTML=""
+    document.querySelector('.card-bottom .descricao span').innerHTML=""
+
+
+    document.querySelector('.card-bottom .forca span').innerHTML="200"
+    document.querySelector('.card-bottom .velocidade span').innerHTML="200"
+    document.querySelector('.card-bottom .poder span').innerHTML="200"
+    document.querySelector('.card-bottom .descricao span').innerHTML="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci sed aspernatur tempore laboriosam placeat enim, sunt est soluta optio, quo, officia voluptates vitae dolorem aliquid nostrum porro repellat esse in!"
+
 }
