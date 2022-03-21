@@ -101,6 +101,7 @@ function flash(){
     document.querySelector('.card-top-flash .namePersona').style.color = 'yellow'
     document.querySelector('.card-top').style.background = 'red'
     document.querySelector('.card-bottom').style.background = 'yellow'
+   
     
     document.querySelector('.card-top').classList.remove('card-top-homemAranha')
     document.querySelector('.card-top').classList.remove('card-top-batman')
