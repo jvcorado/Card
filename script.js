@@ -10,6 +10,11 @@ function voltar(){
     document.querySelector('.card-top .imagem').src="/Card/img/avatar.png"
     document.querySelector('.card-top').style.background = 'transparent'
     document.querySelector('.card-bottom').style.background = 'transparent'
+    document.querySelector('.habilidades ').style.color = 'transparent'
+    document.querySelector('.habilidadesTipos ').style.color = 'transparent'
+    document.querySelector('.poder ').style.color = 'transparent'
+    document.querySelector('.velocidade ').style.color = 'transparent'
+    document.querySelector('.descricao').style.color = 'transparent'
 
     document.querySelector('.card-top').classList.remove('card-top-batman')
     document.querySelector('.card-top').classList.remove('card-top-homemAranha')
@@ -28,10 +33,18 @@ function batman(){
     document.querySelector('.card-top').classList.add('card-top-batman');
     document.querySelector('.card-top').style.background = 'black'
     document.querySelector('.card-bottom').style.background = 'white'
+    
 
     document.querySelector('.card-top .namePersona').innerHTML="Batman"
     document.querySelector('.card-top .imagem').src="/Card/img/batman (1).png"
     document.querySelector('.card-top-batman .namePersona').style.color = 'white'
+    document.querySelector('.card-bottom .habilidades').style.color = 'black'
+    document.querySelector('.habilidadesTipos ').style.color = 'black'
+    document.querySelector('.poder ').style.color = 'black'
+    document.querySelector('.velocidade ').style.color = 'black'
+    document.querySelector('.descricao').style.color = 'black'
+
+
 
     document.querySelector('.card-bottom .forca span').innerHTML=""
     document.querySelector('.card-bottom .velocidade span').innerHTML=""
