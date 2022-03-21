@@ -5,7 +5,7 @@ function voltar(){
 
     document.querySelector('.card-top .namePersona').innerHTML="Personagem"
     document.querySelector('.card-top .namePersona').style.color = 'white'
-    document.querySelector('.card-top .imagem').src="../img/avatar.png"
+    document.querySelector('.card-top .imagem').src="..Card/img/avatar.png"
     document.querySelector('.card-top').style.background = 'transparent'
     document.querySelector('.card-bottom').style.background = 'transparent'
 
