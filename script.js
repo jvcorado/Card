@@ -56,7 +56,7 @@ function homemDeFerro(){
 function flash(){
     document.querySelector('.card-top').classList.add('card-top-flash');
     document.querySelector('.card-top .namePersona').innerHTML="The Flash"
-    document.querySelector('.card-top .imagem').src="../img/flash.png"
+    document.querySelector('.card-top .imagem').src="/Card/img/flash.png"
     document.querySelector('.card-top-flash .namePersona').style.color = 'yellow'
     document.querySelector('.card-top').style.background = 'red'
     document.querySelector('.card-bottom').style.background = 'yellow'
