@@ -5,7 +5,7 @@ function voltar(){
 
     document.querySelector('.card-top .namePersona').innerHTML="Personagem"
     document.querySelector('.card-top .namePersona').style.color = 'white'
-    document.querySelector('.card-top .imagem').src="..Card/img/avatar.png"
+    document.querySelector('.card-top .imagem').src="/Card/img/avatar.png"
     document.querySelector('.card-top').style.background = 'transparent'
     document.querySelector('.card-bottom').style.background = 'transparent'
 
@@ -19,7 +19,7 @@ function batman(){
     document.querySelector('.card-top').classList.add('card-top-batman');
 
     document.querySelector('.card-top .namePersona').innerHTML="Batman"
-    document.querySelector('.card-top .imagem').src="../img/batman (1).png"
+    document.querySelector('.card-top .imagem').src="/Card/img/batman (1).png"
     document.querySelector('.card-top-batman .namePersona').style.color = 'white'
     document.querySelector('.card-top').style.background = 'black'
     document.querySelector('.card-bottom').style.background = 'white'
@@ -32,7 +32,7 @@ function batman(){
 function homemAranha(){
     document.querySelector('.card-top').classList.add('card-top-homemAranha');
     document.querySelector('.card-top .namePersona').innerHTML="Homem Aranha"
-    document.querySelector('.card-top .imagem').src="../img/homem-aranha.png"
+    document.querySelector('.card-top .imagem').src="/Card/img/homem-aranha.png"
     document.querySelector('.card-top-homemAranha .namePersona').style.color = 'white'
     document.querySelector('.card-top').style.background = 'red'
     document.querySelector('.card-bottom').style.background = 'blue'
@@ -44,7 +44,7 @@ function homemAranha(){
 function homemDeFerro(){
     document.querySelector('.card-top').classList.add('card-top-homemDeFerro');
     document.querySelector('.card-top .namePersona').innerHTML="Homem de Ferro"
-    document.querySelector('.card-top .imagem').src="../img/superhero.png"
+    document.querySelector('.card-top .imagem').src="/Card/img/irom-man.png"
     document.querySelector('.card-top-homemDeFerro .namePersona').style.color = 'white'
     document.querySelector('.card-top').style.background = 'red'
     document.querySelector('.card-bottom').style.background = 'yellow'

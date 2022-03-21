@@ -118,12 +118,19 @@ body{
 
 @media (max-width: 500px) {
     body{
-        background-color: rgb(0, 255, 13);
+        background-color: rgb(212, 0, 255);
     }
     .container{
         flex-direction: column;
-        width: 100;
+        width: 100vw;
         height: 100vh;
         border-radius: 20px;
+    }
+    .button{
+        flex-direction: row;
+        width: 100%;
+    }
+    .button button{
+        height: 100px;
     }
 }
