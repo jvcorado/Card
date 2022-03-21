@@ -129,6 +129,7 @@ body{
         border-radius: 20px;
     }
     .button{
+        display: none;
         padding: 10px;
         flex-direction: row;
         width: 100%;
