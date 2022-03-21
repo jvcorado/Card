@@ -115,3 +115,15 @@ body{
     opacity: 50%;
 
 }
+
+@media (max-width: 500px) {
+    body{
+        background-color: aqua;
+    }
+    .container{
+        flex-direction: column;
+        height: 800px;
+        border-radius: 20px;
+        width: 100%;
+    }
+}
